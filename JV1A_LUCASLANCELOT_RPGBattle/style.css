@@ -1,0 +1,137 @@
+body {
+	background-image: url("PICTURES/ARENA/DEVASTEDLAND.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header {
+	background-color:rgb(108, 139, 122);
+	color:white;
+	border-style:solid;
+	border-width: 10px;;
+	border-radius:10px;
+	border-color:rgb(212, 212, 212);
+	position: fixed;
+	margin-right: 5%;
+	margin-left: 5%;
+	width: 90%;
+	text-align:center;
+}
+
+#fightinformations {
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+#OF-FRAMECAPTAIN {
+	position: fixed;
+	top:30%;
+	right:15%;
+}
+
+#OF-FRAMESTANDARD {
+	position: fixed;
+	top:50%;
+	right:15%;
+}
+
+#OF-FRAMEHEAVY {
+	position: fixed;
+	top:70%;
+	right:15%;
+}
+
+#OF-FRAMELIGHT {
+	position: fixed;
+	top:10%;
+	right:15%;
+}
+
+
+#LEV50-1 {
+	position: fixed;
+	top:15%;
+	left:15%;
+}
+
+#TransportShip{
+	position: fixed;
+	top:25%;
+	left:5%;
+}
+
+#LEV50-2 {
+	position: fixed;
+	top:55%;
+	left:15%;
+}
+
+#CAPTAINPIC, #STANDARDPIC, #HEAVYPIC, #LIGHTPIC {
+	height:170px;
+	width:170px;
+}
+
+#LEV50-1PIC, #LEV50-2PIC {
+	height:150px;
+	width:150px;
+}
+
+#TRANSPORTPIC {
+	height:380px;
+	width:380px;
+}
+
+#CAPTAINhealth, #STANDARDhealth, #HEAVYhealth, #LIGHThealth {
+	position: relative;
+	background-color:rgb(108, 139, 122);
+	color:white;
+	border-style:solid;
+	border-width: 3px;;
+	border-radius:5px;
+	border-color:rgb(212, 212, 212);
+	text-align: center;
+}
+
+#ShipHealth, #LEV501health, #LEV502health {
+	position: relative;
+	background-color:rgb(187, 85, 18);
+	color:white;
+	border-style:solid;
+	border-width: 3px;;
+	border-radius:5px;
+	border-color:rgb(212, 212, 212);
+	text-align: center;
+	visibility: hidden;
+}
+
+footer {
+	position: fixed;
+	bottom: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+	width : 90%;
+}
+
+#targetingsystem {
+	position: relative;
+	color:rgb(221, 208, 208);
+	left:40%;
+	width:390px;
+	text-align: center;
+}
+
+#LEV501Select {
+	background-color:rgb(108, 139, 122);
+	color:rgb(187, 85, 18);
+}
+
+#TransportShipSelect {
+	background-color:rgb(108, 139, 122);
+	color:rgb(187, 85, 18);
+}
+
+#LEV502Select {
+	background-color:rgb(108, 139, 122);
+	color:rgb(187, 85, 18);
+}

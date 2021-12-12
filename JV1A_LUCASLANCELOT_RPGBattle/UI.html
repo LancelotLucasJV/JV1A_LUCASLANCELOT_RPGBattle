@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+
+
+	<head>
+		<link rel="stylesheet" href="style.css" >
+		<title>RPG BATTLE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="UI.js"></script> 
+	</head>
+	
+
+
+
+
+	<header>
+		<div id="fightinformations">
+			Préparez vous à la bataille!
+		</div>
+
+	</header>
+	
+	<body onload="FIGHT()">
+
+		<div class="PLAYABLE CHARACTERS">
+			<div id="OF-FRAMECAPTAIN">
+				<p id="CAPTAINhealth">PV : 50/50<br>PA : 30/30</p>
+				<img src="PICTURES/PLAYABLE/CAPTAIN.png" id="CAPTAINPIC"></img>			
+			<div id="OF-FRAMESTANDARD">
+				<p id="STANDARDhealth">PV : 40/40<br>PA : 20/20</p>
+				<img src="PICTURES/PLAYABLE/STANDARD.png" id="STANDARDPIC"></img>
+			</div>
+			<div id="OF-FRAMEHEAVY">
+				<p id="HEAVYhealth">PV : 50/50<br>PA : 10/10</p>
+				<img src="PICTURES/PLAYABLE/HEAVY.png" id="HEAVYPIC"></img>
+			</div>
+			<div id="OF-FRAMELIGHT">
+				<p id="LIGHThealth">PV : 30/30<br>PA : 30/30</p>
+				<img src="PICTURES/PLAYABLE/LIGHT.png" id="LIGHTPIC"></img>
+			</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="ENEMIES">			
+			<div id="LEV50-1">
+				<p id="LEV50-1health">PV : 30/30</p>
+				<img src="PICTURES/ENEMIES/LEV50-1.png" id="LEV50-1PIC" onmouseover="ShowHealth('LEV501health')" onmouseout="HideHealth('LEV50-1health')"></img>
+			</div>
+			<div id="TransportShip">
+				<p id="ShipHealth">PV : 80/80</p>
+				<img src="PICTURES/ENEMIES/TransportShip.png" id="TRANSPORTPIC" onmouseover="ShowHealth('ShipHealth')" onmouseout="HideHealth('ShipHealth')"></img>
+			</div>
+			<div id="LEV50-2">
+				<p id="LEV50-2health">PV : 30/30</p>
+				<img src="PICTURES/ENEMIES/LEV50-2.png" id="LEV50-2PIC" onmouseover="ShowHealth('LEV502health')" onmouseout="HideHealth('LEV50-2health')"></img>
+			</div>
+		</div>
+	
+	</body>
+
+	<footer>
+
+		</div>
+		<div id="targetingsystem">
+			<input type="button" id="LEV501Select" onclick="targeting" value="LEV50-1">
+			<input type="button" id="TransportShipSelect" onclick="targeting" value="Transport Ship">
+			<input type="button" id="LEV502Select" onclick="targeting" value="LEV50-2">
+		</div>
+	</footer>	
+</html>
